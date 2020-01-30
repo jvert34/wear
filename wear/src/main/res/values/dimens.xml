@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    Comme les insets de fenêtre sur les appareils ronds sont supérieurs à 15dp, ce rembourrage ne s'applique que
+    aux écrans carrés.
+    -->
+    <dimen name="box_inset_layout_padding">0dp</dimen>
+
+    <!--
+    Ce rembourrage s'applique aux écrans carrés et ronds. Le rembourrage total entre les boutons
+    et l'insets de la fenêtre est box_inset_layout_padding (variable ci-dessus) sur les écrans carrés et
+    inner_frame_layout_padding (sous la variable) sur les écrans ronds.
+    -->
+    <dimen name="inner_frame_layout_padding">5dp</dimen>
+</resources>
